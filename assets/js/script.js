@@ -1,4 +1,4 @@
-// 10 x Questions for quiz possibly more to add?
+// Array 10 x Questions for quiz possibly more to add?
 const questions = [{
         question: "Q.1 What is the symbol of love?",
         options: ["Heart", "Star", "Circle", "Square"],
@@ -91,17 +91,54 @@ logo.addEventListener("click", function () {
     goToStart();
 });
 
-//Map out planned functions from wireframes to edit
+//map out planned functions from wireframes to edit
 
 function startQuiz() {
+    //current question index and scoer
+    currentQuestion = 0;
+    score = 0;
+
+    //shows first question
+    showQuestion();
+
     // Hide the start page and show the quiz page
     document.getElementById("start-page").classList.add("hidden");
     document.getElementById("quiz-page").classList.remove("hidden");
 }
 
+// Function to show a question
 function showQuestion() {
+    // Get references to HTML elements
+    const questionElement = document.getElementById("question");
+    const optionsContainer = document.getElementById("options-container");
+    const scoreElement = document.getElementById("score");
 
+    // Set the question text
+    questionElement.textContent = questions[currentQuestion].question;
+
+    // Clear previous options (if any)
+    optionsContainer.innerHTML = "";
+
+    // Create and append buttons for each option
+    questions[currentQuestion].options.forEach((option, index) => {
+        // Create a new button element
+        const button = document.createElement("button");
+
+        // Set the button text to the current option
+        button.textContent = option;
+
+        // Add an event listener to the button to check the answer when clicked
+        button.addEventListener("click", () => checkAnswer(index));
+
+        // Append the button to the options container
+        optionsContainer.appendChild(button);
+    });
+
+    // Update the score display
+    scoreElement.textContent = `Score: ${score}/${currentQuestion}`;
 }
+
+
 
 function checkAnswer() {
 

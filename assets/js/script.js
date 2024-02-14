@@ -138,8 +138,6 @@ function showQuestion() {
     scoreElement.textContent = `Score: ${score}/${currentQuestion}`;
 }
 
-
-
 function checkAnswer() {
 
 }

@@ -1,7 +1,7 @@
 /* jshint esversion: 8 */
-/**
- *  Array 10 x Questions for quiz
- * /
+/*
+ *Questions array for quiz
+ */
 const questions = [{
         question: "Q.1 What is the symbol of love?",
         options: ["Heart", "Star", "Circle", "Square"],
@@ -180,7 +180,7 @@ function showQuestion() {
     /**
      *  Update the score display
      */
-    scoreElement.textContent = `Score: ${score}/${currentQuestion}`;
+    scoreElement.textContent = `So far...You have scored ${score} answer(s) correctly out of ${currentQuestion} answered questions!`;
 }
 
 /**

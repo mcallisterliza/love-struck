@@ -51,8 +51,39 @@ const questions = [{
     },
 ];
 
+// Get references to various elements using IDs //
+const startButton = document.getElementById("start-button");
+const instructionsButton = document.getElementById("instructions-button");
+const restartButton = document.getElementById("restart-button");
+const backToStartButton = document.getElementById("back-to-start-button");
+const logo = document.getElementById("logo");
 
-//Map out planned functions from wireframes to add to//
+//directs users to quiz page once 'start quiz' button is clicked//
+startButton.addEventListener("click", function () {
+    startQuiz();
+});
+
+//directs users to instructions page once 'instructions' button is clicked//
+instructionsButton.addEventListener("click", function () {
+    showInstructions();
+});
+
+//directs users to restart quiz once 'restart quiz' button is clicked on end page//
+restartButton.addEventListener("click", function () {
+    restartQuiz();
+});
+
+//directs users to start back again when 'back to start' button is clicked on instructions page//
+backToStartButton.addEventListener("click", function () {
+    goToStart();
+});
+
+//directs users to start page anytime h1 is clicked//
+logo.addEventListener("click", function () {
+    goToStart();
+});
+
+//Map out planned functions from wireframes to edit//
 
 function startQuiz() {
 

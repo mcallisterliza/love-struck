@@ -1,4 +1,4 @@
-// 10 x Questions for quiz possibly more to add?//
+// 10 x Questions for quiz possibly more to add?
 const questions = [{
         question: "Q.1 What is the symbol of love?",
         options: ["Heart", "Star", "Circle", "Square"],
@@ -51,40 +51,47 @@ const questions = [{
     },
 ];
 
-// Get references to various elements using IDs //
+// Get references to various elements using IDs 
 const startButton = document.getElementById("start-button");
 const instructionsButton = document.getElementById("instructions-button");
 const restartButton = document.getElementById("restart-button");
 const backToStartButton = document.getElementById("back-to-start-button");
 const logo = document.getElementById("logo");
 
+//Variables for quiz progress. 'Let' used to allow variable's value to be changed
+// Represents the index of the current question in the 'questions' array
+let currentQuestion = 0;
+// Represents the number of correct answers obtained by the user
+let score = 0;
 
-//directs users to quiz page once 'start quiz' button is clicked//
+
+
+//directs users to quiz page once 'start quiz' button is clicked
 startButton.addEventListener("click", function () {
     startQuiz();
 });
 
-//directs users to instructions page once 'instructions' button is clicked//
+//directs users to instructions page once 'instructions' button is clicked
 instructionsButton.addEventListener("click", function () {
     showInstructions();
 });
 
-//directs users to restart quiz once 'restart quiz' button is clicked on end page//
+//directs users to restart quiz once 'restart quiz' button is clicked on end page
 restartButton.addEventListener("click", function () {
     restartQuiz();
 });
 
-//directs users to start back again when 'back to start' button is clicked on instructions page//
+//directs users to start back again when 'back to start' button is clicked on instructions page
 backToStartButton.addEventListener("click", function () {
     goToStart();
 });
 
-//directs users to start page anytime h1 is clicked//
+//directs users to start page anytime h1 is clicked
 logo.addEventListener("click", function () {
     goToStart();
 });
 
-//Map out planned functions from wireframes to edit//
+//Map out planned functions from wireframes to edit
 
 function startQuiz() {
     // Hide the start page and show the quiz page
@@ -100,25 +107,25 @@ function checkAnswer() {
 
 }
 
-// Function to show the final page and hide the quiz page//
+// Function to show the final page and hide the quiz page
 function showFinalPage() {
     document.getElementById("quiz-page").classList.add("hidden");
     document.getElementById("final-page").classList.remove("hidden");
 }
 
-// Function to restart the quiz by hiding the final page and showing the start page//
+// Function to restart the quiz by hiding the final page and showing the start page
 function restartQuiz() {
     document.getElementById("final-page").classList.add("hidden");
     document.getElementById("start-page").classList.remove("hidden");
 }
 
-// Function to show instructions by hiding the start page and showing the instructions page//
+// Function to show instructions by hiding the start page and showing the instructions page
 function showInstructions() {
     document.getElementById("start-page").classList.add("hidden");
     document.getElementById("instructions-page").classList.remove("hidden");
 }
 
-// Function to go back to the start page by showing the start page and hiding other pages//
+// Function to go back to the start page by showing the start page and hiding other pages
 function goToStart() {
     document.getElementById("start-page").classList.remove("hidden");
     document.getElementById("quiz-page").classList.add("hidden");

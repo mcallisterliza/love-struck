@@ -138,8 +138,25 @@ function showQuestion() {
     scoreElement.textContent = `Score: ${score}/${currentQuestion}`;
 }
 
-function checkAnswer() {
+function checkAnswer(selectedIndex) {
+    // Get the correct index of the current questions answer
+    const correctIndex = questions[currentQuestion].options.indexOf(questions[currentQuestion].correctAnswer);
 
+    // Check if the selected index matches the correct index
+    if (selectedIndex === correctIndex) {
+        // If the answer is correct, increment the user's score
+        score++;
+    }
+
+    // Check if there are more questions to display
+    if (currentQuestion < questions.length - 1) {
+        // If there are more questions, move to the next question and show it
+        currentQuestion++;
+        showQuestion();
+    } else {
+        // If there are no more questions, show the final page
+        showFinalPage();
+    }
 }
 
 // Function to show the final page and hide the quiz page

@@ -1,0 +1,77 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: rgb(194, 6, 6);
+    text-align: center;
+    padding: 40px;
+    box-shadow: 0 15px 15px #3a3a3a;
+}
+
+h1 {
+    color: rgb(11, 11, 11);
+    margin: 0;
+    font-size: 50px;
+    /*Changes mouse to hand point when hovered over h1*/
+    cursor: pointer;
+}
+
+
+main {
+    background-image: url("../images/hearts.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    background-color: #f7f7f7;
+}
+
+#start-page,
+#quiz-page,
+#instructions-page,
+#final-page {
+    background-color: #f19898;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 60%;
+    margin-top: 20px;
+    box-shadow: 0 15px 15px #3a3a3a;
+}
+
+button {
+    background-color: red;
+    color: rgb(10, 9, 9);
+    padding: 10px 20px;
+    margin: 8px;
+    border: none;
+    border-radius: 5px;
+    /*Changes mouse to hand point when hovered over h1*/
+    cursor: pointer;
+}
+
+/*Changes shade of button when hovered over*/
+button:hover {
+    background-color: #a70000;
+}
+
+/*Hides anything with class of .hidden from user's view*/
+.hidden {
+    display: none;
+}
+
+/*Hides footer from view of user*/
+footer {
+    display: none;
+}

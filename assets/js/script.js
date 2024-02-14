@@ -58,6 +58,7 @@ const restartButton = document.getElementById("restart-button");
 const backToStartButton = document.getElementById("back-to-start-button");
 const logo = document.getElementById("logo");
 
+
 //directs users to quiz page once 'start quiz' button is clicked//
 startButton.addEventListener("click", function () {
     startQuiz();
@@ -86,7 +87,9 @@ logo.addEventListener("click", function () {
 //Map out planned functions from wireframes to edit//
 
 function startQuiz() {
-
+    // Hide the start page and show the quiz page
+    document.getElementById("start-page").classList.add("hidden");
+    document.getElementById("quiz-page").classList.remove("hidden");
 }
 
 function showQuestion() {
@@ -97,18 +100,28 @@ function checkAnswer() {
 
 }
 
+// Function to show the final page and hide the quiz page//
 function showFinalPage() {
-
+    document.getElementById("quiz-page").classList.add("hidden");
+    document.getElementById("final-page").classList.remove("hidden");
 }
 
+// Function to restart the quiz by hiding the final page and showing the start page//
 function restartQuiz() {
-
+    document.getElementById("final-page").classList.add("hidden");
+    document.getElementById("start-page").classList.remove("hidden");
 }
 
+// Function to show instructions by hiding the start page and showing the instructions page//
 function showInstructions() {
-
+    document.getElementById("start-page").classList.add("hidden");
+    document.getElementById("instructions-page").classList.remove("hidden");
 }
 
+// Function to go back to the start page by showing the start page and hiding other pages//
 function goToStart() {
-
+    document.getElementById("start-page").classList.remove("hidden");
+    document.getElementById("quiz-page").classList.add("hidden");
+    document.getElementById("instructions-page").classList.add("hidden");
+    document.getElementById("final-page").classList.add("hidden");
 }

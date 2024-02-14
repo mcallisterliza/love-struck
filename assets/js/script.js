@@ -180,7 +180,7 @@ function showQuestion() {
     /**
      *  Update the score display
      */
-    scoreElement.textContent = `So far...You have scored ${score} answer(s) correctly out of ${currentQuestion} answered questions!`;
+    scoreElement.textContent = `So far...You have scored ${score} question(s) correctly out of ${currentQuestion} answered questions!`;
 }
 
 /**
@@ -231,7 +231,7 @@ function showFinalPage() {
     /**
      *  Update the text content of the final score element with the user's score
      */
-    finalScoreElement.textContent = `${score}/${questions.length}`;
+    finalScoreElement.textContent = `You have scored ${score} questions correctly out of ${questions.length} questions!`;
 
     /**
      *  Hide the quiz page and show the final page

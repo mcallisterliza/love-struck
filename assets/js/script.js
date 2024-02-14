@@ -138,6 +138,7 @@ function showQuestion() {
     scoreElement.textContent = `Score: ${score}/${currentQuestion}`;
 }
 
+// Function to check the user's answer and progress through the quiz
 function checkAnswer(selectedIndex) {
     // Get the correct index of the current questions answer
     const correctIndex = questions[currentQuestion].options.indexOf(questions[currentQuestion].correctAnswer);
@@ -161,6 +162,13 @@ function checkAnswer(selectedIndex) {
 
 // Function to show the final page and hide the quiz page
 function showFinalPage() {
+    // Get a reference to the final score element in the HTML
+    const finalScoreElement = document.getElementById("final-score");
+
+    // Update the text content of the final score element with the user's score
+    finalScoreElement.textContent = `${score}/${questions.length}`;
+
+    // Hide the quiz page and show the final page
     document.getElementById("quiz-page").classList.add("hidden");
     document.getElementById("final-page").classList.remove("hidden");
 }

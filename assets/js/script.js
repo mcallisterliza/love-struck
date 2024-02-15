@@ -211,7 +211,7 @@ logo.addEventListener("click", function () {
 });
 
 /**
- * the following function uses Fisher-Yates (Knuth) Shuffle algorithm to shuffle the questions 
+ * the following function uses the Fisher-Yates Shuffle algorithm to shuffle the questions 
  * so that the user has a new set of questions each time they play the quiz
  */
 function shuffleArray(array) {

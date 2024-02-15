@@ -284,11 +284,11 @@ function showQuestion() {
          *  Set the button text to the current option
          */
         button.textContent = option;
-
         /**
          *  Add an event listener to the button to check the answer when clicked
          */
         button.addEventListener("click", () => checkAnswer(index));
+
 
         /**
          *  Append the button to the options container
@@ -298,7 +298,7 @@ function showQuestion() {
     /**
      *  Update the score display
      */
-    scoreElement.textContent = `So far...You have scored ${score} question(s) correctly out of ${currentQuestion} answered questions!`;
+    scoreElement.textContent = `You have scored ${score} question(s) correctly out of ${currentQuestion} answered questions!`;
 }
 
 /**

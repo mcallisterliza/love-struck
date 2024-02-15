@@ -114,3 +114,27 @@ footer {
     text-align: center;
     color: #252525;
 }
+
+/* Small screens (phones) */
+@media only screen and (max-width: 400px) {
+
+    h1 {
+        font-size: 30px;
+        /* Adjust the font size as needed */
+    }
+
+    #question {
+        font-size: 1em;
+    }
+
+    #score {
+        font-size: 0.75em;
+    }
+
+    button {
+        font-size: 0.75em;
+        padding: 5px;
+        grid-template-columns: repeat(2, auto);
+    }
+
+}

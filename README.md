@@ -73,6 +73,7 @@ If the user clicks the "Instructions" button they are directed to a new screen w
 - I would have liked to have added something to the quiz that rewarded players who answered all questions correctly.
 - A leaderboard would have been good to implement to entice the player back to the game to increase their score publically.
 
+<<<<<<< HEAD
 
 ## Design and Color Scheme
 
@@ -134,4 +135,6 @@ All colors chosen have warm red and pink tones to embrace the mood of Valentine'
   ### Response page
   ![Response Page Lighthouse](documentation/response_lighthouse.jpg)
 
+=======
+>>>>>>> 0342ea17a1ec596f8e74fe1957322679486cb3f5
 

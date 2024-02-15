@@ -2,6 +2,7 @@
 /*
  *Questions bank array for quiz of 30 questions. Quiz will randomly select 10 questions each time
  */
+let questions = [];
 const questionsBank = [{
         question: "What is the symbol of love?",
         options: ["Heart", "Star", "Circle", "Square"],
@@ -173,8 +174,6 @@ let currentQuestion = 0;
  *  Represents the number of correct answers obtained by the user
  */
 let score = 0;
-
-let questions;
 
 /**
  *  directs users to quiz page once 'start quiz' button is clicked

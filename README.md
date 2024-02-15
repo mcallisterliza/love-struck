@@ -73,37 +73,65 @@ If the user clicks the "Instructions" button they are directed to a new screen w
 - I would have liked to have added something to the quiz that rewarded players who answered all questions correctly.
 - A leaderboard would have been good to implement to entice the player back to the game to increase their score publically.
 
-## Design and Colour Scheme
+
+## Design and Color Scheme
+
+### Color Scheme
+
+![Color Palette](documentation/color_palette.png)
+
+All colors chosen have warm red and pink tones to embrace the mood of Valentine's Day. These colors also complimented the image used as the main background depicting hearts.
+
+- #C20606 was used for the color of the header and footer. This color was chosen as it is a deep red which has always been associated with Valentine's Day. This also worked well with the contrast of the black color of the font enabling the player to read the text with ease.
+
+- #F19898 was used for the container on each page which displays the welcome message, instructions, questions and answers and the quiz completed page. This is a subtle pink color that compliments the deep red header, footer and background image. This color also ties in with the Valentine's Day theme and it works well with the black font used enabling the player to read the questions and answers with ease. This color was also used for the icons in the footer when the cursor is hovered over them.
+
+- #C252525 was used for the text throughout the game. This color works well with each background and it gives a clean finish and enables the player to read the text with ease.
+
+- #FF0000 was used for the buttons. I had originally used #C20606 but I found this did not work well with the buttons as I found them a little hard to read. I found a cleaner red tone made it easier to read text on the small buttons and the red tied in well with the theme of Valentine's Day.
+
+### Typography
+
+![Roboto Font](documentation/roboto.png)
+
+- Roboto Google Font was used as the main font of the website as it ensured that the website was readable and accessible.
 
 
+## Testing
 
-The imagery and colour scheme of the site were both given careful consideration to ensure they compliment each other. The imagery used in the game is very important to the overall experience of the user.
+## Validator testing
+### HTML
+- No errors or warnings were found when passing through the official W3C validator.
+![Home Page HTML validator](documentation/html_validator.png)
 
-- Given that the game will be predominently played over Christmas 2023, Christmas colours were chosen.
 
-Colour palette from Coolors
+### CSS
+- No errors or warnings were found when passing through the official W3C validator.
+![CSS Validator](documentation/css_validator.png)
 
-![Colour Palette](docs/readme-images/colour_palette.webp)
 
-There are a few subtle Christmas images included on the site including the favicon and some Font Awesome icons used in headers:
+### Javascript
+- No errors or warnings were found when passing through JSHINT.
+![CSS Validator](documentation/js_hint.png)
 
-![Christmas Imagery](docs/readme-images/christmas_imagery.webp)
 
-Great care was taken to establish a good contrast between background colours and text at all times to ensure maximum user accessibility.
+## Lighthouse report
 
-### Fonts
+    - Using lighthouse in devtools I confirmed that the website is performing well, accessible and the colors and fonts chosen are readable.
+    
+  ### Home page
+    ![Home Page Lighthouse](documentation/homepage_lighthouse.jpg)
 
-The Montserrat font is the main font used throughout the whole website. This font was imported via [Google Fonts](https://fonts.google.com/).
+  
+  ### Gallery page
+   ![Gallery Page Lighthouse](documentation/gallery_lighthouse.jpg)
 
-Sans Serif is used as a backup font, in case for any reason the main font isn't being imported into the site correctly.
+  
+  ### Contact page
+    ![Contact Us Page Lighthouse](documentation/homepage_lighthouse.jpg)
 
-### Layout
 
-The site is a single page with 4 main areas:
-
-- Start screen
-- Instructions screen
-- Quiz screen with questions and answers
-- Gameover and option to restart screen
+  ### Response page
+  ![Response Page Lighthouse](documentation/response_lighthouse.jpg)
 
 

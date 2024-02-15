@@ -28,7 +28,7 @@ h1 {
 
 
 main {
-    background-image: url("../images/hearts.jpg");
+    background-image: url("../images/hearts.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -55,7 +55,7 @@ main {
 }
 
 button {
-    background-color: red;
+    background-color: #ff0000;
     color: #252525;
     padding: 10px 20px;
     margin: 8px;

@@ -3,12 +3,12 @@
 
 
 body {
-    overflow: hidden;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
     min-height: 100vh;
-
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -33,11 +33,12 @@ main {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    flex: 1;
+    /* Occupy remaining vertical space */
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 85vh;
-    background-color: #f7f7f7;
+    width: 100%;
 }
 
 #start-page,
@@ -74,7 +75,36 @@ button:hover {
     display: none;
 }
 
-/*Hides footer from view of user*/
+/* Footer */
+/* Changes social media icons to pale pink when hovered over */
 footer {
-    display: none;
+    background-color: rgb(194, 6, 6);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 15px 15px #3a3a3a;
+    margin-top: auto;
+}
+
+.social-media-icon i:hover {
+    color: #f19898 !important;
+}
+
+.social-networks {
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: #252525;
+}
+
+.social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #252525;
+}
+
+.copyright {
+    text-align: center;
+    color: #252525;
 }

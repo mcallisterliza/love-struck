@@ -174,6 +174,7 @@ let currentQuestion = 0;
  */
 let score = 0;
 
+let questions;
 
 /**
  *  directs users to quiz page once 'start quiz' button is clicked

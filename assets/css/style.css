@@ -76,7 +76,12 @@ button:hover {
 }
 
 /* Footer */
-/* Changes social media icons to pale pink when hovered over */
+
+/* Hidden h2 element in footer to keep semantic structure */
+.h2-footer-hidden {
+    display: none
+}
+
 footer {
     background-color: rgb(194, 6, 6);
     text-align: center;
@@ -85,6 +90,7 @@ footer {
     margin-top: auto;
 }
 
+/* Changes social media icons to pale pink when hovered over */
 .social-media-icon i:hover {
     color: #f19898 !important;
 }

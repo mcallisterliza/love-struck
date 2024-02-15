@@ -9,6 +9,8 @@ Love Struck! is designed to be a lighthearted game to test your knowledge of Val
 
 [Love Struck!](https://mcallisterliza.github.io/love-struck/) can be played by clicking the link.
 
+![Screen Responsiveness](documentation/screen_responsiveness.png)
+
 ## **User Stories**
 
 ### First Time Visitor Goals:
@@ -24,4 +26,84 @@ Love Struck! is designed to be a lighthearted game to test your knowledge of Val
 
 ### Frequent Visitor Goals:
 * As a returning visitor, I want to find social media links, so I can visit the quiz company's social media pages to play more quizzes.
+
+## Features
+
+### Home Page
+
+The home page has a red header and footer and the main background has an image depicting hearts. Within the header is the H1 logo with 'Love Struck!' When the user clicks the h1 logo at any point in the game they are directed back to the home page. On the homepage are also two buttons:
+
+- Start Quiz
+- Instructions
+
+![Home Page](documentation/home_page.png)
+
+### Footer
+
+The footer is visible throughout the game and has four font awesome icons within it. Each icon directs the user to the pictured social media site. When hovered over the icons turn to pale pink (as pictured below) to match the color scheme.
+
+![Footer](documentation/footer.png)
+
+### Instructions
+
+If the user clicks the "Instructions" button they are directed to a new screen where the instructions are listed for them to read. This page has a 'back to start' button which when clicked the user is directed back to the home page.
+
+![Instructions](documentation/instructions_screen.png)
+
+### Quiz Screen
+
+- Once the player clicks the start button on the home page the first question with four possible answers is displayed.
+- Once the player clicks an answer the next question is displayed automatically.
+- There is a tally below the questions and answers which shows the player what they have currently scored correctly out of the questions they have answered.
+- There are different questions displayed each time the player restarts the game.
+
+![Quiz Screen](documentation/quiz_screen.png)
+
+### Quiz Completed!
+
+- Once the player has answered 10 questions the final screen will be displayed.
+- This screen shows the player their score and a 'restart quiz' button which when pressed directs the player back to the home page to start over if they wish.
+
+![Quiz Completed!](documentation/quiz_completed_screen.png)
+
+### Future ideas for the Love Struck! quiz game
+
+- If I had more time I would have enjoyed implementing the following:
+- A timer that gives the player only a certain number of seconds per question to add to the fun of the game.
+- I would have liked to have added something to the quiz that rewarded players who answered all questions correctly.
+- A leaderboard would have been good to implement to entice the player back to the game to increase their score publically.
+
+## Design and Colour Scheme
+
+
+
+The imagery and colour scheme of the site were both given careful consideration to ensure they compliment each other. The imagery used in the game is very important to the overall experience of the user.
+
+- Given that the game will be predominently played over Christmas 2023, Christmas colours were chosen.
+
+Colour palette from Coolors
+
+![Colour Palette](docs/readme-images/colour_palette.webp)
+
+There are a few subtle Christmas images included on the site including the favicon and some Font Awesome icons used in headers:
+
+![Christmas Imagery](docs/readme-images/christmas_imagery.webp)
+
+Great care was taken to establish a good contrast between background colours and text at all times to ensure maximum user accessibility.
+
+### Fonts
+
+The Montserrat font is the main font used throughout the whole website. This font was imported via [Google Fonts](https://fonts.google.com/).
+
+Sans Serif is used as a backup font, in case for any reason the main font isn't being imported into the site correctly.
+
+### Layout
+
+The site is a single page with 4 main areas:
+
+- Start screen
+- Instructions screen
+- Quiz screen with questions and answers
+- Gameover and option to restart screen
+
 

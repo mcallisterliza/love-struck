@@ -12,14 +12,14 @@ body {
 }
 
 header {
-    background-color: rgb(194, 6, 6);
+    background-color: #c20606;
     text-align: center;
     padding: 40px;
-    box-shadow: 0 15px 15px #3a3a3a;
+    box-shadow: 0 15px 15px #252525;
 }
 
 h1 {
-    color: rgb(11, 11, 11);
+    color: #252525;
     margin: 0;
     font-size: 50px;
     /*Changes mouse to hand point when hovered over h1*/
@@ -51,12 +51,12 @@ main {
     text-align: center;
     width: 60%;
     margin: 6em 2em;
-    box-shadow: 0 15px 15px #3a3a3a;
+    box-shadow: 0 15px 15px #252525;
 }
 
 button {
     background-color: red;
-    color: rgb(10, 9, 9);
+    color: #252525;
     padding: 10px 20px;
     margin: 8px;
     border: none;
@@ -83,10 +83,10 @@ button:hover {
 }
 
 footer {
-    background-color: rgb(194, 6, 6);
+    background-color: #c20606;
     text-align: center;
     padding: 20px;
-    box-shadow: 0 15px 15px #3a3a3a;
+    box-shadow: 0 15px 15px #252525;
     margin-top: auto;
 }
 
@@ -133,8 +133,7 @@ footer {
 
     button {
         font-size: 0.75em;
-        padding: 5px;
-        grid-template-columns: repeat(2, auto);
+        padding: 7px;
     }
 
 }

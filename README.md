@@ -73,7 +73,6 @@ If the user clicks the "Instructions" button they are directed to a new screen w
 - I would have liked to have added something to the quiz that rewarded players who answered all questions correctly.
 - A leaderboard would have been good to implement to entice the player back to the game to increase their score publically.
 
-<<<<<<< HEAD
 
 ## Design and Color Scheme
 
@@ -118,23 +117,104 @@ All colors chosen have warm red and pink tones to embrace the mood of Valentine'
 
 ## Lighthouse report
 
-    - Using lighthouse in devtools I confirmed that the website is performing well, accessible and the colors and fonts chosen are readable.
+- Using lighthouse in devtools I confirmed that the website is performing well, accessible and the colors and fonts chosen are readable.
     
-  ### Home page
-    ![Home Page Lighthouse](documentation/homepage_lighthouse.jpg)
 
+## Manual testing
+
+| feature | action | expected result | tested | passed | comments |
+| --- | --- | --- | --- | --- | --- |
+| Home | Click on the h1 'Love Struck!' | The user is redirected to the main page | Yes | Yes | - |
+| Footer | | | | | |
+| Facebook icon in the footer | Click on the Facebook icon | The user is redirected to the Facebook page | Yes | Yes | - |
+| Twitter icon in the footer | Click on the Twitter icon | The user is redirected to the Twitter page | Yes | Yes | - |
+| YouTube icon in the footer | Click on the YouTube icon | The user is redirected to the YouTube page | Yes | Yes | - |
+| Instagram icon in the footer | Click on the Instagram icon | The user is redirected to the Instagram page | Yes | Yes | - |
+| Tik Tok icon in the footer | Click on the Tik Tok icon | The user is redirected to the Tik Tok page | Yes | Yes | - |
+| Home page | | | | | |
+| Start Quiz Button | Click on the Start Quiz button | The user is redirected to the quiz page | Yes | Yes | - |
+| Instructions Button | Click on the Instructions button | The user is redirected to the Instructions page | Yes | Yes | - |
+| Instructions page | | | | | |
+| Back to Start Button | Click on the Back to Start button | The user is redirected to the home page | Yes | Yes | - |
+| Quiz Page | | | | | |
+| Answer button| Click on any answer button | The user is redirected to the next questions automatically| Yes | Yes | - |
+| Quiz Completed Page | | | | | |
+| Restart Quiz button| Click on Restart Quiz button | The user is redirected to the home page| Yes | Yes | - |
+---
+
+### Browser Testing
+
+- The Website was tested on Google Chrome, Firefox, Safari browsers with no issues noted.
+
+
+### Fixed Bugs
+
+- When I deployed my project to Github pages I realized that my background image was not working correctly. After some investigation, I realized that I had used the incorrect file path in my code. My code was: "/assets/images/hearts.png". After revisiting the lesson on file paths I realized I needed to remove the first slash from this code for my images to work. Once I removed this slash my image was working.
+
+- When I ran my HTML code through the HTML validator I received error messages for unexpected slashes in self-closing tags. I revisited my code and used the HTML error message as guidance. I then went to the referenced line of code and found the error. I corrected this by removing the slash. I then ran my HTML through the validator once more and the result came back with no error messages.
   
-  ### Gallery page
-   ![Gallery Page Lighthouse](documentation/gallery_lighthouse.jpg)
+- When I initially ran my javascript through JSHINT It concluded that I had an undefined variable in my code despite my code working on the browser. I revisited my code, found the variable and fixed it.
 
+
+### Unfixed Bugs
+
+- None to note
+
+## Deployment
+
+### Deployment to GitHub Pages
+
+- This site was deployed to GitHub pages. The steps I took to deploy this project:
+- In the [GitHub Repository](https://github.com/mcallisterliza/love-stuck) go to 'Settings Tab'. From the source section, I selected the 'Main Branch' and then click save. The page then refreshes and indicates the deployment was successful. Access the live link [here](https://github.com/mcallisterliza/drama-kids)
   
-  ### Contact page
-    ![Contact Us Page Lighthouse](documentation/homepage_lighthouse.jpg)
+
+### Local deployment
+
+To make a local copy of this project, clone it.
+In your IDE Terminal, type the following command to clone my repository:
+
+- git clone `https://github.com/mcallisterliza/love-struck.git`
+
+---
+
+## Credits
+
+- [Font](https://fonts.google.com/) Fonts taken from Google Fonts
+
+- [Icons](https://fontawesome.com/icons) Icons were taken from Font Awesome.
+
+- [Tiny 'png' - Image Compressor](https://tinypng.com/) Used to compress images.
+
+- [Compressor - Image Compressor](https://compressor.io/) Used to compress images.
+
+- [Coolors](https://coolors.co/) Color scheme image generated from 'Coolors'
+
+- [GitHub](https://github.com/) was used to deploy the website.
+
+- [VSCode](https://code.visualstudio.com/) was used to edit the code for the website.
+
+- [Pexels](https://www.pexels.com/) was used for media as seen below.
+
+- [The Code Institute](https://github.com/Code-Institute-Org) Inspiration for my navigation bar and hero image came from the Love Running project I undertook with The Code Institute.
+
+## Media
+All images were taken from [Pexels](https://www.pexels.com/)
+- [Hearts Image](https://www.pexels.com/photo/macro-shot-of-light-bulb-170781/)
 
 
-  ### Response page
-  ![Response Page Lighthouse](documentation/response_lighthouse.jpg)
 
-=======
->>>>>>> 0342ea17a1ec596f8e74fe1957322679486cb3f5
+## Acknowledgments
 
+- [Code Institute](https://codeinstitute.net/) Thank you to the fantastic Slack community members and friends I have made during this project for their support, chats and help.
+
+- [Iuliias Konovalova](https://github.com/IuliiaKonovalova) Thank you to my mentor has given me great advice, constructive feedback and an overall sense of confidence and calmness whilst I have embarked on my new learning journey.
+
+- [Web Dev Simplified] [Build a Quiz With Javascript](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1317s).
+
+- [James Q Quick] [Build a Quiz App](https://www.youtube.com/watch?v=rFWbAj40JrQ&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF).
+
+- [GitHub](https://github.com/) Thank you to GitHub for providing a free space for me to deploy my website.
+
+- [VSCode](https://code.visualstudio.com/) Thank you to VS Code for providing a free space for me to build and edit my code.
+
+- Thank you to my wonderful family because without them I would not have been able to do this.

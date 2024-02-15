@@ -114,3 +114,12 @@ footer {
     text-align: center;
     color: #252525;
 }
+
+/* Small screens (phones) */
+@media only screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 35px;
+        /* Adjust the font size as needed */
+    }
+}

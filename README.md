@@ -163,7 +163,7 @@ All colors chosen have warm red and pink tones to embrace the mood of Valentine'
 | Restart Quiz button| Click on Restart Quiz button | The user is redirected to the home page| Yes | Yes | - |
 ---
 
-### Browser Testing
+### Browser Testing - Compatability
 
 The website was tested on:
 
@@ -179,6 +179,16 @@ The website was tested on:
 - Microsoft Edge successfully
 ![Edge](documentation/edge_test.png)
 
+### Responsiveness
+- The website was checked with the responsive viewer in Chrome to assess responsiveness on different screen sizes:
+
+ ![Responsive Screenshot Home Page](documentation/responsiveness_home_screen.png)
+
+ ![Responsive Screenshot Instructions Page](documentation/responsiveness_instructions_screen.png)
+
+ ![Responsive Screenshot Question Page](documentation/responsiveness_question_screen.png)
+ 
+ ![Responsive Screenshot Score Page](documentation/responsiveness_score_screen.png)
 
 
 ### Fixed Bugs

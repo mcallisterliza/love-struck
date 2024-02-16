@@ -13,7 +13,7 @@ body {
 
 /* Header */
 header {
-    background-color: #d60b0b;
+    background-color: #ff0000;
     text-align: center;
     padding: 40px;
 }
@@ -82,7 +82,7 @@ button:hover {
 }
 
 footer {
-    background-color: #d60b0b;
+    background-color: #ff0000;
     text-align: center;
     padding: 20px;
     box-shadow: 0 15px 15px #030303;

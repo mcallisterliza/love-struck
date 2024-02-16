@@ -86,7 +86,7 @@ All colors chosen have warm red and pink tones to embrace the mood of Valentine'
 
 - #F19898 was used for the container on each page which displays the welcome message, instructions, questions and answers and the quiz completed page. This is a subtle pink color that compliments the deep red header, footer and background image. This color also ties in with the Valentine's Day theme and it works well with the black font used enabling the player to read the questions and answers with ease. This color was also used for the icons in the footer when the cursor is hovered over them.
 
-- #C252525 was used for the text throughout the game. This color works well with each background and it gives a clean finish and enables the player to read the text with ease.
+- #030303 was used for the text throughout the game. This color works well with each background and it gives a clean finish and enables the player to read the text with ease.
 
 - #FF0000 was used for the buttons. I had originally used #C20606 but I found this did not work well with the buttons as I found them a little hard to read. I found a cleaner red tone made it easier to read text on the small buttons and the red tied in well with the theme of Valentine's Day.
 
@@ -165,7 +165,20 @@ All colors chosen have warm red and pink tones to embrace the mood of Valentine'
 
 ### Browser Testing
 
-- The Website was tested on Google Chrome, Firefox, Safari browsers with no issues noted.
+The website was tested on:
+
+- Chrome successfully
+![Chrome](documentation/chrome_test.png)
+
+- Firefox successfully
+![Firefox](documentation/firefox_test.png)
+
+- AVG successfully
+![Avg](documentation/avg_test.png)
+
+- Microsoft Edge successfully
+![Edge](documentation/edge_test.png)
+
 
 
 ### Fixed Bugs

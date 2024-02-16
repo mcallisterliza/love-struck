@@ -14,9 +14,9 @@ const questionsBank = [{
         correctAnswer: "Rose"
     },
     {
-        question: "Which romantic movie features the characters Noah and Allie and is based on a Nicholas Sparks novel?",
-        options: ["The Notebook", "Titanic", "Pride and Prejudice", "Twilight"],
-        correctAnswer: "The Notebook"
+        question: "In Roman mythology, Cupid is the son of whom?",
+        options: ["Venus", "Eros", "Mars", "Mary"],
+        correctAnswer: "Venus"
     },
     {
         question: "What is the traditional gift for a 25th wedding anniversary?",
@@ -35,11 +35,11 @@ const questionsBank = [{
     },
     {
         question: "Which famous playwright wrote 'Romeo and Juliet'?",
-        options: ["William Shakespeare", "Jane Austen", "Charles Dickens", "F. Scott Fitzgerald"],
-        correctAnswer: "William Shakespeare"
+        options: ["Shakespeare", "Austen", "Dickens", "Fitzgerald"],
+        correctAnswer: "Shakespeare"
     },
     {
-        question: "What is the love hormone that plays a role in social bonding and affection?",
+        question: "What is the love hormone that plays a role in affection?",
         options: ["Oxytocin", "Dopamine", "Serotonin", "Endorphin"],
         correctAnswer: "Oxytocin"
     },
@@ -59,12 +59,12 @@ const questionsBank = [{
         correctAnswer: "Gold"
     },
     {
-        question: "In which year did the tradition of sending Valentine's Day cards begin?",
+        question: "In which century did the sending of Valentine's Day cards begin?",
         options: ["1800s", "1600s", "1900s", "1700s"],
         correctAnswer: "1700s"
     },
     {
-        question: "What is the name of the winged god of love in ancient Roman mythology?",
+        question: "What is the name of the winged god of love in Roman mythology?",
         options: ["Cupid", "Eros", "Amor", "Apollo"],
         correctAnswer: "Cupid"
     },
@@ -74,23 +74,23 @@ const questionsBank = [{
         correctAnswer: "Swan"
     },
     {
-        question: "What popular sweet treat is often given on Valentine's Day and has phrases written on them?",
-        options: ["Chocolate Hearts", "Candy Canes", "Love Hearts", "Jelly Beans"],
-        correctAnswer: "Love Hearts"
+        question: "What is the 40th year anniversary gift traditionally?",
+        options: ["Ruby", "Emerald", "Diamond", "Onyx"],
+        correctAnswer: "Ruby"
     },
     {
-        question: "What romantic novel features the characters Elizabeth Bennet and Mr. Darcy?",
-        options: ["Pride and Prejudice", "Wuthering Heights", "Sense and Sensibility", "Jane Eyre"],
-        correctAnswer: "Pride and Prejudice"
+        question: "When was February 14th first declared Valentine's Day?",
+        options: ["1537", "1917", "1723", "1607"],
+        correctAnswer: "1537"
     },
     {
-        question: "What is the meaning of the red rose, the most iconic symbol of Valentine's Day?",
+        question: "What is the meaning of the red rose on Valentine's Day?",
         options: ["Friendship", "Passion", "Peace", "Gratitude"],
         correctAnswer: "Passion"
     },
     {
         question: "Which ancient Roman festival is believed to be the origin of Valentine's Day?",
-        options: ["Lupercalia", "Saturnalia", "Ides of March", "Kalends"],
+        options: ["Lupercalia", "Saturnalia", "Easter", "Kalends"],
         correctAnswer: "Lupercalia"
     },
     {
@@ -104,18 +104,18 @@ const questionsBank = [{
         correctAnswer: "Love"
     },
     {
-        question: "What Shakespearean play features the famous quote 'The course of true love never did run smooth'?",
-        options: ["Romeo and Juliet", "A Midsummer Night's Dream", "Macbeth", "Hamlet"],
-        correctAnswer: "A Midsummer Night's Dream"
+        question: "The Irish Claddagh shows two hands holding what?",
+        options: ["Diamond", "Heart", "Shamrock", "Emerald"],
+        correctAnswer: "Heart"
     },
     {
-        question: "What is the significance of the Love Knot in relation to weddings?",
-        options: ["Symbol of eternal love", "Unity of two families", "Promise of fidelity", "Good luck and prosperity"],
-        correctAnswer: "Symbol of eternal love"
+        question: "What is the Irish word for love?",
+        options: ["Grá", "Cáca", "Loch", "Lóistin"],
+        correctAnswer: "Grá"
     },
     {
         question: "In Japan, what do women traditionally give to men on Valentine's Day?",
-        options: ["Chocolates", "Flowers", "Love letters", "Jewelry"],
+        options: ["Chocolates", "Flowers", "Money", "Jewelry"],
         correctAnswer: "Chocolates"
     },
     {
@@ -124,14 +124,14 @@ const questionsBank = [{
         correctAnswer: "St. Valentine"
     },
     {
-        question: "What romantic novel features the characters Scarlett O'Hara and Rhett Butler?",
-        options: ["Pride and Prejudice", "Gone with the Wind", "Wuthering Heights", "Sense and Sensibility"],
-        correctAnswer: "Gone with the Wind"
+        question: "Where will you find the remainds of St. Valetnine?",
+        options: ["London", "Paris", "Rome", "Dublin"],
+        correctAnswer: "Dublin"
     },
     {
-        question: "What is the name of the love song sung by Elvis Presley?",
-        options: ["Love Me Tender", "Can't Help Falling in Love", "Unchained Melody", "Something"],
-        correctAnswer: "Can't Help Falling in Love"
+        question: "What is the 10th year anniversary gift traditionally?",
+        options: ["Wood", "Tin", "Silver", "Gold"],
+        correctAnswer: "Tin"
     },
     {
         question: "What is the traditional gift for a 15th wedding anniversary?",
@@ -139,17 +139,17 @@ const questionsBank = [{
         correctAnswer: "Crystal"
     },
     {
-        question: "Which romantic comedy film stars Julia Roberts as a popular escort in Los Angeles?",
-        options: ["Pretty Woman", "My Best Friend's Wedding", "Notting Hill", "Runaway Bride"],
-        correctAnswer: "Pretty Woman"
+        question: "What is the 20th year anniversary gift traditionally?",
+        options: ["Tin", "Paper", "China", "Gold"],
+        correctAnswer: "China"
     },
     {
-        question: "What is the Italian dessert often associated with love, meaning 'pick me up'?",
+        question: "What is the Italian dessert often associated with love?",
         options: ["Tiramisu", "Cannoli", "Panna Cotta", "Gelato"],
         correctAnswer: "Tiramisu"
     },
     {
-        question: "What does the term 'betrothal' refer to in the context of love and marriage?",
+        question: "What does the term 'betrothal' mean?",
         options: ["Engagement", "Wedding ceremony", "Honeymoon", "Anniversary"],
         correctAnswer: "Engagement"
     },
@@ -298,7 +298,7 @@ function showQuestion() {
     /**
      *  Update the score display
      */
-    scoreElement.textContent = `You have scored ${score} question(s) correctly out of ${currentQuestion} answered questions!`;
+    scoreElement.textContent = `${score} question(s) answered correctly out of ${currentQuestion} answered question(s)`;
 }
 
 /**

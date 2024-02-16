@@ -23,7 +23,6 @@ Love Struck! is designed to be a lighthearted game to test your knowledge of Val
 * As someone revisiting the site, I want to play the game again with some different questions.
 * As a returning visitor, I want to see if I can improve my score.
 
-
 ### Frequent Visitor Goals:
 * As a returning visitor, I want to find social media links, so I can visit the quiz company's social media pages to play more quizzes.
 
@@ -95,12 +94,10 @@ All colors chosen have warm red and pink tones to embrace the mood of Valentine'
 
 - Roboto Google Font was used as the main font of the website as it ensured that the website was readable and accessible.
 
-
 ## Technologies Used
 
 ### Languages
 
-- JavaScript
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used to build the structure of the website.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/css)
 - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -119,8 +116,6 @@ All colors chosen have warm red and pink tones to embrace the mood of Valentine'
 - [Git](https://git-scm.com/) - was used for the version control.
 - [GitHub](https://github.com/) - for storing my code.
 - [GitHub Pages](https://pages.github.com/) - for posting my website.
-
-
 
 ## Testing
 
@@ -195,7 +190,6 @@ The website was tested on:
  
  ![Responsive Screenshot Score Page](documentation/responsiveness_score_screen.png)
 
-
 ### Fixed Bugs
 
 - When I deployed my project to Github pages I realized that my background image was not working correctly. After some investigation, I realized that I had used the incorrect file path in my code. My code was: "/assets/images/hearts.png". After revisiting the lesson on file paths I realized I needed to remove the first slash from this code for my images to work. Once I removed this slash my image was working.
@@ -215,7 +209,7 @@ To clone this repository I did the following steps:
 
 - I went to my love-struck repository and I copied the link https://github.com/mcallisterliza/love-struck.git
 - I then opened the terminal and typed 'git clone https://github.com/mcallisterliza/love-struck.git'
--I then hit enter and entered 'CD love-struck' before coding by typing 'code .'
+-I then hit enter and entered 'cd love-struck' before coding by typing 'code .'
 
 ## Deployment
 
@@ -251,10 +245,13 @@ Live link: [Love Struck!](https://mcallisterliza.github.io/love-struck/)
 
 - [The Code Institute](https://github.com/Code-Institute-Org) Inspiration for my navigation bar and hero image came from the Love Running project I undertook with The Code Institute.
 
+- [W3C](https://www.w3.org/) - Used for HTML & CSS Validation.
+
+- [JSHINT](https://jshint.com/) - used to validate my javascript code.
+
 ## Media
 All images were taken from [Pexels](https://www.pexels.com/)
 - [Hearts Image](https://www.pexels.com/photo/macro-shot-of-light-bulb-170781/)
-
 
 
 ## Acknowledgments
@@ -263,12 +260,12 @@ All images were taken from [Pexels](https://www.pexels.com/)
 
 - [Iuliias Konovalova](https://github.com/IuliiaKonovalova) Thank you to my mentor has given me great advice, constructive feedback and an overall sense of confidence and calmness whilst I have embarked on my new learning journey.
 
-- [Web Dev Simplified] [Build a Quiz With Javascript](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1317s).
+- [Web Dev Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1317s) Thank you for an informative tutorial.
 
-- [James Q Quick] [Build a Quiz App](https://www.youtube.com/watch?v=rFWbAj40JrQ&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF).
+- [James Q Quick](https://www.youtube.com/watch?v=rFWbAj40JrQ&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF) Thank you for an informative tutorial.
 
 - [GitHub](https://github.com/) Thank you to GitHub for providing a free space for me to deploy my website.
 
 - [VSCode](https://code.visualstudio.com/) Thank you to VS Code for providing a free space for me to build and edit my code.
 
-- Thank you to my wonderful family because without them I would not have been able to do this.
+- Thank you to my wonderful family who took the time to look after my children while I worked because without them I would not have been able to do this.

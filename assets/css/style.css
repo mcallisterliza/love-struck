@@ -13,7 +13,7 @@ body {
 
 /* Header */
 header {
-    background-color: #c20606;
+    background-color: #d60b0b;
     text-align: center;
     padding: 40px;
 }
@@ -67,7 +67,7 @@ button {
 
 /*Changes shade of button when hovered over*/
 button:hover {
-    background-color: #a70000;
+    background-color: #d60b0b;
 }
 
 /*Hides anything with class of .hidden from user's view*/
@@ -82,7 +82,7 @@ button:hover {
 }
 
 footer {
-    background-color: #c20606;
+    background-color: #d60b0b;
     text-align: center;
     padding: 20px;
     box-shadow: 0 15px 15px #030303;

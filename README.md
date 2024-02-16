@@ -82,7 +82,7 @@ If the user clicks the "Instructions" button they are directed to a new screen w
 
 All colors chosen have warm red and pink tones to embrace the mood of Valentine's Day. These colors also complimented the image used as the main background depicting hearts.
 
-- #C20606 was used for the color of the header and footer. This color was chosen as it is a deep red which has always been associated with Valentine's Day. This also worked well with the contrast of the black color of the font enabling the player to read the text with ease.
+- #d60b0b was used for the color of the header and footer. This color was chosen as it is a deep red which has always been associated with Valentine's Day. This also worked well with the contrast of the black color of the font enabling the player to read the text with ease.
 
 - #F19898 was used for the container on each page which displays the welcome message, instructions, questions and answers and the quiz completed page. This is a subtle pink color that compliments the deep red header, footer and background image. This color also ties in with the Valentine's Day theme and it works well with the black font used enabling the player to read the questions and answers with ease. This color was also used for the icons in the footer when the cursor is hovered over them.
 
@@ -139,6 +139,7 @@ All colors chosen have warm red and pink tones to embrace the mood of Valentine'
 ## Lighthouse report
 
 - Using lighthouse in devtools I confirmed that the website is performing well, accessible and the colors and fonts chosen are readable.
+![Lighthouse Report](documentation/lighthouse_report.png)
     
 
 ## Manual testing

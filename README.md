@@ -68,7 +68,8 @@ If the user clicks the "Instructions" button they are directed to a new screen w
 
 ### Future ideas for the Love Struck! quiz game
 
-- If I had more time I would have enjoyed implementing the following:
+If I had more time I would have enjoyed implementing the following:
+
 - A timer that gives the player only a certain number of seconds per question to add to the fun of the game.
 - I would have liked to have added something to the quiz that rewarded players who answered all questions correctly.
 - A leaderboard would have been good to implement to entice the player back to the game to increase their score publically.
@@ -203,6 +204,13 @@ The website was tested on:
 
 - None to note
 
+## Local Deployment
+
+To clone this repository I did the following steps:
+
+- I went to my love-struck repository and I copied the link https://github.com/mcallisterliza/love-struck.git
+- I then opened the terminal and typed 'git clone https://github.com/mcallisterliza/love-struck.git'
+-I then hit enter and entered 'CD love-struck' before coding by typing 'code .'
 
 ## Deployment
 
@@ -210,7 +218,7 @@ I deployed my project using GitHub pages:
 
 - First I clicked settings in my GitHub repository.
 - I then clicked 'pages' from the left-hand side of the page.
-- I selected Source - Deploy from branch.
+- I selected Source - Deploy from the branch.
 - The main branch was selected and the folder was 'root'.
 - Under the branch, I then clicked save.
 - I then went back to the code tab in the Environments section and I then clicked on GitHub Pages.

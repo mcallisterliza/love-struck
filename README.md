@@ -82,13 +82,11 @@ If the user clicks the "Instructions" button they are directed to a new screen w
 
 All colors chosen have warm red and pink tones to embrace the mood of Valentine's Day. These colors also complimented the image used as the main background depicting hearts.
 
-- #d60b0b was used for the color of the header and footer. This color was chosen as it is a deep red which has always been associated with Valentine's Day. This also worked well with the contrast of the black color of the font enabling the player to read the text with ease.
+- #FF0000 was used for the color of the header and footer. This color was chosen as it is a clean red which has always been associated with Valentine's Day. This also worked well with the contrast of the black color of the font enabling the player to read the text with ease. This color was used for the buttons also. I had originally used #C20606 but I found this did not work well with the buttons as I found them a little hard to read. I found a cleaner red tone made it easier to read text on the small buttons and the red tied in well with the theme of Valentine's Day.
 
 - #F19898 was used for the container on each page which displays the welcome message, instructions, questions and answers and the quiz completed page. This is a subtle pink color that compliments the deep red header, footer and background image. This color also ties in with the Valentine's Day theme and it works well with the black font used enabling the player to read the questions and answers with ease. This color was also used for the icons in the footer when the cursor is hovered over them.
 
 - #030303 was used for the text throughout the game. This color works well with each background and it gives a clean finish and enables the player to read the text with ease.
-
-- #FF0000 was used for the buttons. I had originally used #C20606 but I found this did not work well with the buttons as I found them a little hard to read. I found a cleaner red tone made it easier to read text on the small buttons and the red tied in well with the theme of Valentine's Day.
 
 ### Typography
 
@@ -205,22 +203,20 @@ The website was tested on:
 
 - None to note
 
+
 ## Deployment
 
-### Deployment to GitHub Pages
+I deployed my project using GitHub pages:
 
-- This site was deployed to GitHub pages. The steps I took to deploy this project:
-- In the [GitHub Repository](https://github.com/mcallisterliza/love-stuck) go to 'Settings Tab'. From the source section, I selected the 'Main Branch' and then click save. The page then refreshes and indicates the deployment was successful. Access the live link [here](https://github.com/mcallisterliza/drama-kids)
-  
+- First I clicked settings in my GitHub repository.
+- I then clicked 'pages' from the left-hand side of the page.
+- I selected Source - Deploy from branch.
+- The main branch was selected and the folder was 'root'.
+- Under the branch, I then clicked save.
+- I then went back to the code tab in the Environments section and I then clicked on GitHub Pages.
+- I then clicked on view deployments to see the live site.
 
-### Local deployment
-
-To make a local copy of this project, clone it.
-In your IDE Terminal, type the following command to clone my repository:
-
-- git clone `https://github.com/mcallisterliza/love-struck.git`
-
----
+Live link: [Love Struck!](https://mcallisterliza.github.io/love-struck/)
 
 ## Credits
 

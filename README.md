@@ -3,7 +3,7 @@
 
 # Love Struck!
 
-Love Struck! is a multiple-choice Valentine's Day quiz for adults or families to play around Saint Valentine's Day. This quiz offers the player 10 different questions each time they play. The aim is to answer as many questions correctly as possible.
+Love Struck! is a multiple-choice Valentine's Day quiz for adults or families to play around Saint Valentine's Day. This quiz offers the player 10 different questions each time they play from a bank of 30 questions. The aim is to answer as many questions correctly as possible.
 
 Love Struck! is designed to be a lighthearted game to test your knowledge of Valentine's Day/love-themed trivia and it is also a good way to learn new fun facts about the subject area.
 

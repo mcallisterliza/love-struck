@@ -154,8 +154,6 @@ const questionsBank = [{
         correctAnswer: "Engagement"
     },
 ];
-
-
 /**
  *  Get references to various elements using IDs
  */
